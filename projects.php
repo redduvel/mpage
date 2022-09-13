@@ -18,39 +18,19 @@
         <section class="projects projects-paddings">
             <p class="projects-h project-page-h">Projects</p>
             <div class="projects-container">
-                <div class="demo">
-                    <div class="project-block">
-                        <p class="project-date">2022-08-01</p>
-                        <div class="project-content">
-                            <input type="checkbox" id="hd-1" class="hide"/>
-                            <label for="hd-1" >Lenin In Game</label>
-                            <div>
-                                <p class="project-status project-status-developing">In Developing</p>
-                                <br>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Facilis incidunt necessitatibus repudiandae!
-                                    Exercitationem animi vel deleniti dicta corporis molestias minima!
-                                    Atque eum a ex dicta dignissimos? A sequi harum iure?
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                $dir    = './blocks/big_projects';
+                    
+                if ($handle = opendir($dir)) {
+                    while (false !== ($file = readdir($handle))) { 
+                        if ($file != "." && $file != "..") { 
+                            include($dir."/".$file);
+                        } 
+                    }
+                    closedir($handle); 
+                }
+            ?>
                 
-                <div class="demo">
-                    <div class="project-block">
-                        <p class="project-date">2022-08-23</p>
-                        <div class="project-content">
-                            <input type="checkbox" id="hd-2" class="hide"/>
-                            <label for="hd-2" >This Page</label>
-                            <div>
-                                <p class="project-status project-status-developing">In Developing</p>
-                                <br>
-                                    This page is a portfolio created specifically for the publication of my work.
-                                    it has not been perfected and will be constantly improved.
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     </div>
