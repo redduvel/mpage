@@ -1,5 +1,26 @@
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     body {
         padding: 15px 10px 15px 10px;
+    }
+    .about {
+        padding: 20px 10px 20px 10px;
+    }
+    .main-link {
+        font-size: 24px;
+    }
+    .about-links-text {
+        font-size: 12px;
+    }
+    .projects-h {
+        font-size: 24px;
+    }
+    .project-name { 
+        font-size: 16px;
+    }
+    .project-status {
+        font-size: 16px;
+    }
+    .project-date {
+        font-size: 16px;
     }
 }
