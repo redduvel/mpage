@@ -1,6 +1,6 @@
 <div class="links-block">
     <div class="up-bar">
-        <a href="index.php" class="main-link">MLuster Space</a>
+        <a href="index.php" class="main-link">MLbustin Space</a>
     </div>        
     <div class="nav-links">
         <p class="link-around"> | </p>
