@@ -25,7 +25,6 @@
                     while (false !== ($file = readdir($handle))) { 
                         if ($file != "." && $file != "..") { 
                             include($dir."/".$file);
-                            print "print не требует скобок.";
                         } 
                     }
                     closedir($handle); 
