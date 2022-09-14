@@ -1,4 +1,4 @@
-@media (max-width: 376px) {
+@media (max-device-width: 450px) {
     body {
         padding: 15px 10px 15px 10px;
     }
@@ -8,7 +8,13 @@
     .main-link {
         font-size: 24px;
     }
+    .about-text{
+        max-width: 100%;
+        font-size: 16px;
+        
+    }
     .about-links-text {
+        max-width: 150px;
         font-size: 12px;
     }
     .projects-h {
@@ -22,5 +28,79 @@
     }
     .project-date {
         font-size: 16px;
+    }
+    .img-link {
+        max-height: 10px;
+    }
+    .nav-link {
+        font-size: 16px;
+    }
+}
+@media (max-device-width: 750px) and (min-device-width: 451px) {
+    body {
+        padding: 35px 100px 35px 100px;
+    }
+    .about {
+        padding: 20px 50px 20px 50px;
+    }
+    .main-link {
+        font-size: 36px;
+    }
+    .about-text{
+        max-width: 100%;
+        font-size: 22px;
+        
+    }
+    .about-links-text {
+        font-size: 22px;
+    }
+    .projects-h {
+        font-size: 28px;
+    }
+    .project-name { 
+        font-size: 22px;
+    }
+    .project-status {
+        font-size: 22px;
+    }
+    .project-date {
+        font-size: 22px;
+    }
+    .nav-link {
+        font-size: 22px;
+    }
+}
+@media (max-device-width: 1350px) and (min-device-width: 751px) {
+    body {
+        padding: 35px 100px 35px 100px;
+    }
+    .about {
+        padding: 20px 50px 20px 50px;
+    }
+    .main-link {
+        font-size: 36px;
+    }
+    .about-text{
+        max-width: 100%;
+        font-size: 22px;
+        
+    }
+    .about-links-text {
+        font-size: 22px;
+    }
+    .projects-h {
+        font-size: 28px;
+    }
+    .project-name { 
+        font-size: 22px;
+    }
+    .project-status {
+        font-size: 22px;
+    }
+    .project-date {
+        font-size: 22px;
+    }
+    .nav-link {
+        font-size: 22px;
     }
 }
