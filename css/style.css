@@ -283,3 +283,56 @@ body {
     display: inline-block;
 }
 
+.review-header{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*contacts*/
+.contact-title{
+    font-family: "Inconsolata";
+    font-style: normal;
+    font-size: 16px;
+    color: whitesmoke;
+    text-underline-offset: none;
+
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+.contact-mail-block{
+    padding-top: 25px;
+}
+.contact-input{
+    background-color: #EEDDFF;
+    border: 2px solid #5a5a5a;
+    border-radius: 5px;
+
+    width: 400px;
+    height: 20px;
+}
+.contact-input-big{
+    min-width: 400px;
+    min-height: 150px;
+
+    max-width: 400px;
+    max-height: 150px;
+}
+.contact-button{
+    width: 120px;
+    height: 30px;
+
+    margin-top: 15px;
+    
+    font-family: "Inconsolata";
+    font-style: normal;
+    font-size: 16px;
+    color: whitesmoke;
+    text-underline-offset: none;
+
+    background-color: darkorange;
+    border: 2px solid rgb(16, 16, 16);
+    border-radius: 5px;
+}
+.contact-button:hover{
+    background-color: rgb(206, 113, 0);
+}
