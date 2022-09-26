@@ -10,9 +10,9 @@
         <p class="link-around"> | </p>
         <a href="../blog.php" class="nav-link">Blog</a>
         <p class="link-around"> | </p>
-        <a href="" class="nav-link">Reviews</a>
+        <a href="../reviews.php" class="nav-link">Reviews</a>
         <p class="link-around"> | </p>
-        <a href="" class="nav-link">Contacts</a>
+        <a href="../contacts.php" class="nav-link">Contacts</a>
         <p class="link-around"> | </p>
     </div>
 </div>
