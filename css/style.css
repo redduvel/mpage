@@ -282,7 +282,6 @@ body {
     cursor: pointer;
     display: inline-block;
 }
-
 .review-header{
     display: flex;
     justify-content: flex-start;
