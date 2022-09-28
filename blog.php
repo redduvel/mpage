@@ -63,6 +63,11 @@
 
                     </div>
                 </div>
+                <div class="none-post">
+                    <p class="none-post-text">
+                        nothing here yet :(
+                    </p>
+                </div>
             </div>
         </section>
     </div>

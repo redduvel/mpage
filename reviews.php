@@ -18,7 +18,7 @@
                 include("blocks/header/header.php");
             ?>
         </header>
-            <section class="blog">
+        <section class="blog post">
                 <p class="blog-h projects-h">Reviews for my work</p>
                 <div class="blog-posts">
                     <div class="post">
@@ -67,6 +67,11 @@
                     </div>
                 </div>
         </section>
+        <div class="none-post">
+            <p class="none-post-text">
+                nothing here yet :(
+            </p>
+        </div>
     </div>
 </body>
 </html>

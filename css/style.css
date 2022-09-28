@@ -192,6 +192,19 @@ body {
     display: flex;
     justify-content: flex-start;
     padding-top: 30px;
+
+    display: none;
+
+}
+.none-post-text{
+    font-family: "Inconsolata";
+    font-style: normal;
+    font-size: 18px;
+
+    color: White;
+    display: inline-block; 
+
+    padding-top: 20px;
 }
 .post-container{
     
