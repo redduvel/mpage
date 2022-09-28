@@ -18,7 +18,7 @@
                 include("blocks/header/header.php");
             ?>
         </header>
-        <section class="blog post">
+        <section class="blog">
                 <p class="blog-h projects-h">Reviews for my work</p>
                 <div class="blog-posts">
                     <div class="post">
