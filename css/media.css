@@ -41,6 +41,7 @@
         max-width: 360px;
     }
     .contact-input-big{
+        min-width: 360px;
         max-width: 360px;
     }
 }
