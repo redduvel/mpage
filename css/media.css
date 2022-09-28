@@ -38,10 +38,10 @@
         max-width: 80px;
     }
     .contact-input {
-        max-width: 200px;
+        max-width: 360px;
     }
     .contact-input-big{
-        max-width: 390px;
+        max-width: 360px;
     }
 }
 @media (max-device-width: 750px) and (min-device-width: 451px) {
